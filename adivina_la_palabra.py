@@ -43,3 +43,6 @@ while vidas > 0:
 
     else:
         print("Error: Por favor ingresa solo letras.")
+        
+if "_" in tablero:
+    print(f"¡Perdiste! Te quedaste sin vidas. La palabra era: {palabra_secreta}")
